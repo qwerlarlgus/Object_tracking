@@ -12,3 +12,7 @@ https://www.raymond.cc/blog/extract-video-frames-to-images-using-vlc-media-playe
 
 ### command line
 vlc.exe "pathtovideo" --video-filter=scene --vout=dummy --start-time=300 --stop-time=600 --scene-ratio=250 --scene-path="pathtosaveimages" vlc://quit
+
+
+### https://076923.github.io/posts/Python-opencv-15/
+# RGB2HSV
