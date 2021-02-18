@@ -7,7 +7,7 @@ frame = cv2.imread('032.png')
 hsv_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
 
 # Every color except white & Green
-low = np.array([0, 42, 0]) #  0, 42, 0 - white
+low = np.array([195, 159, 28]) #  0, 42, 0 - white
 high = np.array([244, 231, 94])
 mask = cv2.inRange(hsv_frame, low, high)
 result = cv2.bitwise_and(frame, frame, mask=mask)
